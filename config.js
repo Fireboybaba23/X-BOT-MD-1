@@ -22,7 +22,7 @@ ANTI_DELETE: process.env.ANTI_DELETE || "false",
 // true if want welcome and goodbye msg in groups    
 ADMIN_EVENTS: process.env.ADMIN_EVENTS || "false",
 // make true to know who dismiss or promoted a member in group
-ANTI_LINK: process.env.ANTI_LINK || "false",
+ANTI_LINK: process.env.ANTI_LINK || "true",
 // make anti link true,false for groups 
 ANTI_CALL: getConfig("ANTI_CALL") || "false",
 // anticall integration 
@@ -44,9 +44,9 @@ CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️�
 // chose custom react emojis by yourself 
 DELETE_LINKS: process.env.DELETE_LINKS || "true",
 // automatic delete links witho remove member 
-OWNER_NUMBER: process.env.OWNER_NUMBER || "2349133354644",
+OWNER_NUMBER: process.env.OWNER_NUMBER || "2348139598985",
 // add your bot owner number
-OWNER_NAME: process.env.OWNER_NAME || "Dᴀᴠɪᴅ X",
+OWNER_NAME: process.env.OWNER_NAME || "Him",
 // add bot owner name
 DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ Dᴀᴠɪᴅ X*",
 // add bot owner name    
@@ -65,8 +65,8 @@ MODE: process.env.MODE || "public",
 // make bot public-private-inbox-group 
 ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "false",
 // make anti link true,false for groups 
-ANTIVIEW_ONCE: process.env.ANTIVIEW_ONCE || "off",
-ANTILINK_WARN: process.env.ANTILINK_WARN || "false",
+ANTIVIEW_ONCE: process.env.ANTIVIEW_ONCE || "on",
+ANTILINK_WARN: process.env.ANTILINK_WARN || "true",
 ANTILINK_KICK: process.env.ANTILINK_KICK || "false",
 ANTILINK: process.env.ANTILINK || "false",
 AUTO_VOICE: process.env.AUTO_VOICE || "false",
@@ -83,7 +83,7 @@ AUTO_TYPING: process.env.AUTO_TYPING || "false",
 // true for automatic show typing   
 READ_CMD: process.env.READ_CMD || "false",
 // true if want mark commands as read 
-DEV: process.env.DEV || "2349133354644",
+DEV: process.env.DEV || "2348139598985",
 //replace with your whatsapp number        
 ANTI_VV: process.env.ANTI_VV || "true",
 // true for anti once view 
